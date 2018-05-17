@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18369b36e44766c428df5bfc369667e0, type: 3}
+  m_Name: default_gun
+  m_EditorClassIdentifier: 
+  name: Basic_gun
+  artwork: {fileID: 21300000, guid: f5427434b02def741a584d16d369dc8c, type: 3}
+  fire_rate: 1
+  speed: 0.5
+  projectile: {fileID: 1607059784076630, guid: 9cec5eeaa95b49e46a016cedcef89b1c, type: 2}
+  particle: {fileID: 1881955792775144, guid: 811c11ddc6b1732439afbcee8be8f757, type: 2}
+  sound: {fileID: 0}

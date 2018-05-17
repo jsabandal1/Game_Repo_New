@@ -67,5 +67,21 @@ public class WeaponScript : MonoBehaviour
         {
             index = 2;
         }
+        if (Input.GetKey(KeyCode.Alpha4))
+        {
+            index = 3;
+        }
+        if (Input.GetKey(KeyCode.Alpha5))
+        {
+            index = 4;
+        }
+        if (Input.GetKey(KeyCode.Alpha6))
+        {
+            index = 5;
+        }
+        if (Input.GetKey(KeyCode.Alpha7))
+        {
+            index = 6;
+        }
     }
 }

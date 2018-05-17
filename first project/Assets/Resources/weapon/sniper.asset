@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: sniper
   m_EditorClassIdentifier: 
   name: 
-  artwork: {fileID: 0}
+  artwork: {fileID: 21300022, guid: f5427434b02def741a584d16d369dc8c, type: 3}
   fire_rate: 0
-  speed: 0
+  R_speed: 0
   projectile: {fileID: 0}
   particle: {fileID: 0}
   sound: {fileID: 0}

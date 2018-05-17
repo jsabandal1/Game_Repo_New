@@ -29,7 +29,11 @@ public class bulletScript : MonoBehaviour {
     {
         if (collision.gameObject.tag.Equals("unbreakable"))
         {
-
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag.Equals("moveable"))
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.transform.position * 1, ForceMode2D.Impulse);
             Destroy(gameObject);
         }
     }

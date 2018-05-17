@@ -12,6 +12,7 @@ TagManager:
   - spawn point
   - ARbullet
   - floor
+  - moveable
   layers:
   - Default
   - TransparentFX

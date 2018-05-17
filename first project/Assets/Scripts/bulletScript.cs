@@ -5,8 +5,6 @@ using UnityEngine;
 public class bulletScript : MonoBehaviour {
     private static int counter = 0;
     public float bulletSpeed;
-    public GameObject grenagde;
-    private GameObject explosion;
     public float dmg;
     public float damage
     {
@@ -33,11 +31,6 @@ public class bulletScript : MonoBehaviour {
         {
 
             Destroy(gameObject);
-        }
-        else if(gameObject.tag.Equals("grenade"))
-        {
-            explosion = Instantiate(grenagde, gameObject.transform.position, Quaternion.identity);
-            Destroy(explosion, 2);
         }
     }
 }

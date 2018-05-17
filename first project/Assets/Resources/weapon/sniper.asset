@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   artwork: {fileID: 21300022, guid: f5427434b02def741a584d16d369dc8c, type: 3}
-  fire_rate: 1
+  fire_rate: 0
   R_speed: 0
-  projectile: {fileID: 1112298751860492, guid: 06a080fbd29ad6e4a8f1449bb48ec992, type: 2}
-  particle: {fileID: 1881955792775144, guid: 811c11ddc6b1732439afbcee8be8f757, type: 2}
+  projectile: {fileID: 0}
+  particle: {fileID: 0}
   sound: {fileID: 0}

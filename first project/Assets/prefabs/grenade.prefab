@@ -119,8 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2385829a0892cff46b4f98cf2f829332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 0
-  dmg: 0
 --- !u!114 &114828686906628236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -133,7 +131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 6
-  grenagde: {fileID: 0}
   dmg: 0
 --- !u!212 &212670618680187808
 SpriteRenderer:

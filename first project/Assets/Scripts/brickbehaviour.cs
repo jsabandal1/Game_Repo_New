@@ -23,11 +23,14 @@ public class brickbehaviour : MonoBehaviour {
             health -= collision.gameObject.GetComponent<bulletScript>().damage;
             Destroy(collision.gameObject);
         }
+        //else if(collision.gameObject.GetComponent<>() != null)
+        //{
 
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        //}
+        //else if (health <= 0)
+        //{
+        //    Destroy(gameObject);
+        //}
 
     }
 }
